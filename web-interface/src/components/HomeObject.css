@@ -1,0 +1,150 @@
+.home__hero-section{
+    padding: 150px 0;
+    position: relative;
+}
+
+.home__hero-row {
+    align-items: center;
+}
+
+.row{
+    display: flex;
+    padding-left: 2%;
+    width: 100%;
+    
+}
+
+.col{
+    margin-bottom: 15px;
+    padding-left: 15px;
+    flex:1;
+    max-width: 50%;
+    flex-basis: 50%;
+}
+
+.home__hero-text-wrapper {
+    max-width: 540px;
+    padding-top: 0;
+    padding-bottom: 60px;
+
+}
+
+.top-line{
+    color: red;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    margin-bottom: 17px;
+
+
+}
+
+.heading{
+    margin-bottom: 24px;
+    font-size: 48px;
+    line-height: 1.1.;
+    font-weight: 600;
+    color: white;
+}
+
+.dark{
+    color:black;
+}
+
+.light{
+    color:white !important;
+}
+
+.greenBg{
+    background: #1b9c6e;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
+}
+
+.redBg{
+    background: #fc466b;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
+}
+
+.whiteBg{
+    background:white;
+}
+
+.home__hero-subtitle{
+    max-width: 440px;
+    margin-bottom:35px;
+    font-size:18px;
+    line-height: 24px;
+    color:black;
+}
+
+.home__hero-img-wrapper{
+    max-width: 555px;
+}
+
+.home__hero-img{
+    max-width: 95%;
+    padding-right:0;
+    margin :0 0 0 10px;
+    border: 4px solid;
+    border-radius: 10px;
+
+}
+
+img{
+    border: 0;
+    max-width: width 100%;
+    vertical-align: middle;
+    display:inline-block;
+}
+
+@media screen and (max-width:991px){
+    .container{
+
+    padding-right: 30px;
+    padding-left: 30px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .home__hero-text-wrapper{
+
+    padding-bottom: 65px;
+    }
+
+    
+}
+
+@media screen and (max-width:500px){
+
+
+    .col{
+        width: 100%!important;
+        flex-basis: 100%;
+    }
+
+    .col{
+        max-width: 100%!important;
+        flex-basis:100%!important;
+        
+    }
+    
+}
+
+.btn--dark{
+    background-color: transparent;
+    color: black;
+    padding: 8px 20px;
+    border: 1px solid black;
+    transition: all 0.3s ease-out;
+    border-radius: 4px;
+
+}
+
+.btn--dark:hover{
+    background: black;
+    color:white;
+    transition: all 0.3s ease-out;
+
+}

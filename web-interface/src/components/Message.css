@@ -1,0 +1,39 @@
+.message-line{
+    width:100%;
+
+}
+
+.user-bubble{
+    background-color:rgba(34,195,138,1);
+    border-radius: 8px;
+    max-width:60%;
+    float: right;
+    margin-bottom:2%;
+    align-items: center;
+    padding: 10px;
+    white-space: normal;
+
+    
+}
+
+.elise-bubble{
+    background-color:rgb(216, 216, 216);
+    border-radius: 8px;
+    max-width: 60%;
+    float: left;
+    margin-bottom:2%;
+    align-items: center;
+    padding: 10px;
+    white-space: normal;
+    
+    
+}
+
+.elise-text{
+    color:black;
+}
+
+.user-text{
+    color:white;
+
+}

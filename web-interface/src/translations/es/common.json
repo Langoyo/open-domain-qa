@@ -1,0 +1,99 @@
+ 
+{
+    "navbar": {
+        "home": "Inicio",
+        "playground":"Pregunta",
+        "references":"Referencias"
+
+    },
+    "footer": {
+        "big": "Un sistema pregunta respuesta en dominio abierto",
+        "small2":" :)",
+        "small1":"Hecho por Andrés Langoyo con "
+
+    },
+    "home": {
+        "QA":"Un Sistema de Pregunta-Respuesta en Dominio Abierto",
+        "button1":"PREGUNTA ALGO",
+        "button2":"¿CÓMO FUNCIONA?"
+
+    },
+    "query": {
+        "message":"¡Hola! Soy Elise. ¡Pregúntame lo que quieras!",
+        "placeholder":"Escribe aquí...",
+        "options":"Mostrar opciones avanzadas",
+        "form-input": "Escribe tu pregunta aquí",
+        "ranker": "Ordenador",
+        "reader":"Lector",
+        "n-results":"Número de resultados",
+        "button-submit":"Enviar",
+        "header-answer":"Respuesta",
+        "header-title":"Título",
+        "header-passage":"Fragmento",
+        "header-link":"Link",
+        "header-score":"Puntuación"
+    },
+    "references":{
+        "drqa":{
+            "description":"Documento de motivación del proyecto. Aborda el problema de la respuesta a preguntas de dominio abierto combinando las herramientas de la recuperación de información y la comprensión de textos por parte de las máquinas."
+        },
+        "wiki":{
+            "description":"Todos los artículos se obtienen de Wikipedia, que sirve como ejemplo de corpus de dominio abierto con información factual."
+
+        },
+        "tfidf":{
+            "description": "Clasifica los documentos con respecto a una consulta basándose en la frecuencia de los términos y las veces que aparecen en cada documento."
+        },
+        "bm25":{
+            "description":"Clasificador que se basa en TF-IDF. Clasifica un conjunto de documentos basándose en los términos de la consulta que aparecen en cada documento, independientemente de su proximidad dentro del documento."
+        },
+        "word2vec":{
+            "description":"Método de incrustación que representa las palabras utilizando los pesos de un clasificador que aprende las palabras en función de sus contextos. Aquí se utiliza para generar representaciones densas promediadas de los documentos."
+        },
+        "st":{
+            "description":"Marco de trabajo para la incrustación de frases, textos e imágenes de última generación. Utiliza una red BERT preentrenada con estructuras de red siamesas y de tripletes para derivar incrustaciones de frases semánticamente significativas que pueden compararse utilizando la similitud del coseno."
+        },
+        "bert":{
+            "description":"Potente modelo lingüístico de última generación que aplica un entrenamiento bidireccional de Transformadores. Puede aplicarse a múltiples tareas obteniendo resultados de vanguardia. En este caso, un modelo preentrenado se pone a punto para el control de calidad."
+        },
+        "squad":{
+            "description":"Stanford Question Answering Dataset (SQuAD) es un conjunto de datos de comprensión lectora, que consiste en preguntas planteadas por crowdworkers sobre un conjunto de artículos de Wikipedia, donde la respuesta a cada pregunta es un segmento de texto, o span, del pasaje de lectura correspondiente, o la pregunta puede ser incontestable."
+        }
+
+        
+    },
+    "tuto": {
+        "search": {
+            "headline":"Busca cualquier cosa",
+            "description":"Escribe una pregunata sobre cualquier tema y Elise tratará de responder.",
+            "button":"Pruébalo"
+        },
+        "chat": {
+            "headline":"Interfaz de Chat",
+            "description":"Pregunta usando la interfaz de chat. Puedes escribir o hablar. Activa el botón para hacer a Elise hablar.",
+            "button":"Pregunta"
+        },
+        "advanced": {
+            "headline":"Opciones Avanzadas",
+            "description":"Usa las opciones avanzadas para seleccionar los modelos. El ordenador elige textos relevantes. El lector extrae la respuesta.",
+            "button":"Prueba"
+        },
+        "table": {
+            "headline":"Resultados Avanzados",
+            "description":"Consuta las mejores respuestas en formato de tabla y accede a los artículos fuente.",
+            "button":"Vamos"
+        },
+        "language": {
+            "headline":"Cambiar Idioma",
+            "description":"Elise sabe Español e Inglés. Cambia el idioma de la interfaz en la barra de navegación.",
+            "button":"Pregunta algo"
+        },
+        "references": {
+            "headline":"Referencias",
+            "description":"Consulta los recursos utilizados para crear a Elise.",
+            "button":"Referencias"
+        }
+
+    }
+
+}

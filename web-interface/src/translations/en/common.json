@@ -1,0 +1,99 @@
+{
+    "navbar": {
+        "home": "Home",
+        "playground":"Playground",
+        "references":"References"
+
+    },
+    "footer": {
+        "big": "An Open Domain Question Answering system",
+        "small1":"Made with ",
+        "small2":" by Andrés Langoyo :)"
+
+    },
+    "home": {
+        "QA":"An Open Domain Question Answering System",
+        "button1":"ASK SOMETHING",
+        "button2":"HOW IT WORKS"
+
+    },
+    "query": {
+        "message":"Hello! I am Elise. Ask me anything!",
+        "placeholder":"Type here...",
+        "options":"Show advanced options",
+        "form-input": "Type your question here",
+        "ranker": "Ranker",
+        "reader":"Reader",
+        "n-results":"Number of results",
+        "button-submit":"Submit",
+        "header-answer":"Answer",
+        "header-title":"Title",
+        "header-passage":"Fragment",
+        "header-link":"Link",
+        "header-score":"Score"
+    },
+    "references":{
+        "drqa":{
+            "description":"Motivation paper of the project. It tackles the problem of open domain question answering by combining the tools of information retrieval and machine text comprehension."
+        },
+        "wiki":{
+            "description":"All the articles are obtained from Wikipedia, which serves as an example of open domain corpus with factual information."
+
+        },
+        "tfidf":{
+            "description": "Ranks documents against a query based on the frequency of the terms and the times they appear in every document."
+        },
+        "bm25":{
+            "description":"Ranker that builds upon TF-IDF. Ranks a set of documents based on the query terms appearing in each document, regardless of their proximity within the document."
+        },
+        "word2vec":{
+            "description":"Embedding method that represents words using the weights of a classifier that learns words based on their contexts. Here it used to generate averaged dense representations of documents."
+        },
+        "st":{
+            "description":"Framework for state-of-the-art sentence, text and image embeddings. Uses a pretrained BERT network with siamese and triplet network structures to derive semantically mean ingful sentence embeddings that can be compared using cosine-similarity."
+        },
+        "bert":{
+            "description":"Powerful state of the art language model that applies a bidirectional training of Transformers. It can be applied to multiple tasks obtaining state of the art results. Here a pretrained model is finetunned for QA."
+        },
+        "squad":{
+            "description":"Stanford Question Answering Dataset (SQuAD) is a reading comprehension dataset, consisting of questions posed by crowdworkers on a set of Wikipedia articles, where the answer to every question is a segment of text, or span, from the corresponding reading passage, or the question might be unanswerable."
+        }
+
+        
+    },
+
+    "tuto": {
+        "search": {
+            "headline":"Search Anything",
+            "description":"Type any question on any domain and Elise will try to answer.",
+            "button":"Try Playground"
+        },
+        "chat": {
+            "headline":"Chat Interface",
+            "description":"Use a chat like interface to ask Elise. You can type or talk. Toggle the button on the top right corner to activate Elise voice.",
+            "button":"Go"
+        },
+        "advanced": {
+            "headline":"Advanced Options",
+            "description":"Use the advance options form to select the models. The ranker selects relevant passages. The reader extracts the answer.",
+            "button":"Try Playground"
+        },
+        "table": {
+            "headline":"Advanced Results",
+            "description":"See the top answers in table format and access the original articles from the answers.",
+            "button":"Try it"
+        },
+        "language": {
+            "headline":"Change Language",
+            "description":"Elise supports English and Spanish. Toggle the language of the interface in the navigation bar.",
+            "button":"Ask Something"
+        },
+        "references": {
+            "headline":"References",
+            "description":"See what resources were used to make Elise!",
+            "button":"See References"
+        }
+
+    }
+
+}
